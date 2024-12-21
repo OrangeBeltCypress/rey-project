@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: aqua;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.home-content,  .bio-content, .content-content {
+padding: 20px;
+text-align: center;
+}
+
+.content-content table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.content-content th, .content-content td {
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+.portfolio-gallery {
+    padding-bottom: 50px;
+}
+
+.portfolio-gallery h2 {
+    text-align: center;
+}
+
+
+
+
+
+
+
